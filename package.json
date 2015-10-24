@@ -1,7 +1,7 @@
 {
   "name": "hubot-leveldb-brain",
   "description": "A hubot script to persist hubot's brain using leveldb",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Josh Nichols <technicalpickles@github.com>",
   "contributors": [
     "Pedro Tacla Yamada <tacla.yamada@gmail.com>"
