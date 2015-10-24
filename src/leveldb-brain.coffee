@@ -31,7 +31,7 @@ module.exports = (robot) ->
 
   getData = ->
     db.get "#{prefix}:storage", (err, reply) ->
-      if err
+      if err and err.type isnt 'NotFoundError'
         throw err
       else if reply
         robot.logger.info(
