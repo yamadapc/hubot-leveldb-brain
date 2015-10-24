@@ -1,3 +1,11 @@
+# Description:
+#   Persist hubot's brain to leveldb
+#
+# Configuration:
+#   LEVELDB_PATH
+#
+# Commands:
+#   None
 path = require "path"
 levelup = require "levelup"
 
