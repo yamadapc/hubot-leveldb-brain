@@ -1,19 +1,23 @@
 {
-  "name": "hubot-redis-brain",
-  "description": "A hubot script to persist hubot's brain using redis",
+  "name": "hubot-leveldb-brain",
+  "description": "A hubot script to persist hubot's brain using leveldb",
   "version": "0.0.3",
   "author": "Josh Nichols <technicalpickles@github.com>",
+  "contributors": [
+    "Pedro Tacla Yamada <tacla.yamada@gmail.com>"
+  ],
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-redis-brain.git"
+    "url": "git://github.com/yamadapc/hubot-leveldb-brain.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-redis-brain/issues"
+    "url": "https://github.com/yamadapc/hubot-leveldb-brain/issues"
   },
   "dependencies": {
-    "redis": "0.8.4"
+    "leveldown": "^1.4.2",
+    "levelup": "^1.2.1"
   },
   "peerDependencies": {
     "hubot": "2.x"
@@ -34,6 +38,5 @@
   },
   "main": "index.coffee",
   "scripts": {
-    "test": "grunt test"
   }
 }
