@@ -20,3 +20,6 @@ Then add **hubot-leveldb-brain** to your `external-scripts.json`:
   "hubot-leveldb-brain"
 ]
 ```
+
+## Donations
+Would you like to buy me a beer? Send bitcoin to 3JjxJydvoJjTrhLL86LGMc8cNB16pTAF3y
